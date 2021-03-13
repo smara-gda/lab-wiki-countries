@@ -19,8 +19,9 @@ class CountriesList extends React.Component{
                 <ul>
                     {this.state.countries.map(country => (
                         <li key={country.latlng}>
+                            {country.flag}
                             <Link to={`/country/${country.cca3}`}>
-                                {country.name.official}
+                              {country.name.official} 
                             </Link>{' '}
                         </li>
                     ))}

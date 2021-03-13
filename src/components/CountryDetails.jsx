@@ -33,7 +33,9 @@ class CountryDetails extends React.Component {
                     {this.state.country &&  (
                     <div><h1>{this.state.country.name.official}</h1>
                     <h3>{this.state.country.capital}</h3>
-                    <h4>{this.state.country.borders}</h4></div>
+                    <h4>{this.state.country.borders}</h4>
+                    
+                    </div>
                     )
             }
                 </div>
